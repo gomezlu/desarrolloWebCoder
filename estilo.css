@@ -1,0 +1,41 @@
+body{
+background-image: url(fondo2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+}
+.medida{
+    width: 150px;
+    height: 150px;
+
+}
+
+.lista{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    background-color: pink;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.imagenes{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    
+}
+.piedepag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    background-color: aqua;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
